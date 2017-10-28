@@ -12,6 +12,14 @@
 		CA84DD631FA36BB4007D829C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA84DD611FA36BB4007D829C /* Main.storyboard */; };
 		CA84DD651FA36BB4007D829C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA84DD641FA36BB4007D829C /* Assets.xcassets */; };
 		CA84DD681FA36BB4007D829C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA84DD661FA36BB4007D829C /* LaunchScreen.storyboard */; };
+		CA84DD721FA36CE8007D829C /* IMG_002.JPG in Resources */ = {isa = PBXBuildFile; fileRef = CA84DD711FA36CE8007D829C /* IMG_002.JPG */; };
+		CA84DD751FA36D2A007D829C /* IMG_003.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA84DD741FA36D2A007D829C /* IMG_003.jpg */; };
+		CA84DD771FA36D39007D829C /* IMG_004.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA84DD761FA36D39007D829C /* IMG_004.jpg */; };
+		CA84DD791FA36D44007D829C /* IMG_000.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA84DD781FA36D43007D829C /* IMG_000.jpg */; };
+		CA84DD7B1FA36D70007D829C /* IMG_001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA84DD7A1FA36D70007D829C /* IMG_001.jpg */; };
+		CA84DD7D1FA36DEE007D829C /* SlideShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA84DD7C1FA36DEE007D829C /* SlideShowViewController.swift */; };
+		CA84DD7F1FA36DFA007D829C /* PictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA84DD7E1FA36DFA007D829C /* PictureViewController.swift */; };
+		CA84DD811FA37127007D829C /* Pictures.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA84DD801FA37127007D829C /* Pictures.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,14 @@
 		CA84DD641FA36BB4007D829C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA84DD671FA36BB4007D829C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA84DD691FA36BB4007D829C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA84DD711FA36CE8007D829C /* IMG_002.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_002.JPG; sourceTree = "<group>"; };
+		CA84DD741FA36D2A007D829C /* IMG_003.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_003.jpg; sourceTree = "<group>"; };
+		CA84DD761FA36D39007D829C /* IMG_004.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_004.jpg; sourceTree = "<group>"; };
+		CA84DD781FA36D43007D829C /* IMG_000.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_000.jpg; sourceTree = "<group>"; };
+		CA84DD7A1FA36D70007D829C /* IMG_001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_001.jpg; sourceTree = "<group>"; };
+		CA84DD7C1FA36DEE007D829C /* SlideShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideShowViewController.swift; sourceTree = "<group>"; };
+		CA84DD7E1FA36DFA007D829C /* PictureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureViewController.swift; sourceTree = "<group>"; };
+		CA84DD801FA37127007D829C /* Pictures.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Pictures.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +70,30 @@
 		CA84DD5C1FA36BB4007D829C /* SlideshowApp */ = {
 			isa = PBXGroup;
 			children = (
+				CA84DD731FA36CEF007D829C /* Pictures */,
 				CA84DD5D1FA36BB4007D829C /* AppDelegate.swift */,
 				CA84DD5F1FA36BB4007D829C /* ViewController.swift */,
 				CA84DD611FA36BB4007D829C /* Main.storyboard */,
+				CA84DD7C1FA36DEE007D829C /* SlideShowViewController.swift */,
+				CA84DD7E1FA36DFA007D829C /* PictureViewController.swift */,
 				CA84DD641FA36BB4007D829C /* Assets.xcassets */,
+				CA84DD801FA37127007D829C /* Pictures.xcassets */,
 				CA84DD661FA36BB4007D829C /* LaunchScreen.storyboard */,
 				CA84DD691FA36BB4007D829C /* Info.plist */,
 			);
 			path = SlideshowApp;
+			sourceTree = "<group>";
+		};
+		CA84DD731FA36CEF007D829C /* Pictures */ = {
+			isa = PBXGroup;
+			children = (
+				CA84DD781FA36D43007D829C /* IMG_000.jpg */,
+				CA84DD7A1FA36D70007D829C /* IMG_001.jpg */,
+				CA84DD711FA36CE8007D829C /* IMG_002.JPG */,
+				CA84DD741FA36D2A007D829C /* IMG_003.jpg */,
+				CA84DD761FA36D39007D829C /* IMG_004.jpg */,
+			);
+			path = Pictures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,8 +155,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA84DD721FA36CE8007D829C /* IMG_002.JPG in Resources */,
+				CA84DD751FA36D2A007D829C /* IMG_003.jpg in Resources */,
+				CA84DD811FA37127007D829C /* Pictures.xcassets in Resources */,
+				CA84DD791FA36D44007D829C /* IMG_000.jpg in Resources */,
 				CA84DD681FA36BB4007D829C /* LaunchScreen.storyboard in Resources */,
 				CA84DD651FA36BB4007D829C /* Assets.xcassets in Resources */,
+				CA84DD7B1FA36D70007D829C /* IMG_001.jpg in Resources */,
+				CA84DD771FA36D39007D829C /* IMG_004.jpg in Resources */,
 				CA84DD631FA36BB4007D829C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +175,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA84DD601FA36BB4007D829C /* ViewController.swift in Sources */,
+				CA84DD7F1FA36DFA007D829C /* PictureViewController.swift in Sources */,
 				CA84DD5E1FA36BB4007D829C /* AppDelegate.swift in Sources */,
+				CA84DD7D1FA36DEE007D829C /* SlideShowViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +320,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = iconoclastgamestudio.SlideshowApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -295,7 +335,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = iconoclastgamestudio.SlideshowApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
